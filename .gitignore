@@ -1,0 +1,12 @@
+# Gerados pelo build
+dist/
+
+# Fotos originais e revisões do Codex: ficam só no computador
+# (arquivos grandes, com localização GPS e pessoas/crianças nas fotos)
+fotos-originais/
+revisao-fotos/
+
+# Sistema / ferramentas locais
+.DS_Store
+.claude/
+__pycache__/
