@@ -39,6 +39,7 @@ const ITENS = [
   { id: "luminaria-de-chao", amb: "sala", icone: "luminaria", nome: "Luminária de chão", marca: "", preco: 90, estado: "", specs: [], fotos: ["fotos/luminaria-de-chao-1.webp", "fotos/luminaria-de-chao-2.webp", "fotos/luminaria-de-chao-3.webp"] },
   { id: "tapete-da-sala", amb: "sala", icone: "tapete", nome: "Tapete da sala", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/tapete-da-sala-1.webp", "fotos/tapete-da-sala-2.webp"] },
   { id: "bicicleta-ergometrica", amb: "sala", icone: "bike", nome: "Bicicleta ergométrica", marca: "", preco: 300, estado: "", specs: [], fotos: ["fotos/bicicleta-ergometrica-1.webp"] },
+  { id: "aspirador-vertical", amb: "sala", icone: "aspirador", nome: "Aspirador de pó vertical", marca: "WAP", preco: 250, estado: "", specs: [], fotos: ["fotos/aspirador-vertical-1.webp"] },
   { id: "quadros", amb: "sala", icone: "quadros", nome: "Quadros", marca: "", preco: null, precoTexto: "Valor a combinar", estado: "", specs: ["Vários quadros: veja todas as fotos"], fotos: ["fotos/quadros-1.webp", "fotos/quadros-2.webp", "fotos/quadros-3.webp", "fotos/quadros-4.webp", "fotos/quadros-5.webp", "fotos/quadros-6.webp", "fotos/quadros-7.webp", "fotos/quadros-8.webp", "fotos/quadros-9.webp"] },
 
   // Cozinha
@@ -54,6 +55,8 @@ const ITENS = [
   { id: "pipoqueira", amb: "cozinha", icone: "pipoca", nome: "Pipoqueira", marca: "", preco: 60, estado: "", specs: [], fotos: [] },
   { id: "batedeira", amb: "cozinha", icone: "batedeira", nome: "Batedeira", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/batedeira-1.webp"] },
   { id: "espremedor-de-suco", amb: "cozinha", icone: "espremedor", nome: "Espremedor de suco", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/espremedor-de-suco-1.webp"] },
+  { id: "maquina-de-lavar", amb: "cozinha", icone: "lavalouca", nome: "Máquina de lavar", marca: "Midea", preco: 1500, estado: "", specs: [], fotos: ["fotos/maquina-de-lavar-1.webp", "fotos/maquina-de-lavar-2.webp"] },
+  { id: "purificador-de-agua", amb: "cozinha", icone: "purificador", nome: "Purificador de água", marca: "IBBL", preco: 250, estado: "", specs: [], fotos: ["fotos/purificador-de-agua-1.webp"] },
 
   // Quarto do casal
   { id: "cama-de-casal-com-colchao", amb: "casal", icone: "cama", nome: "Cama de casal com colchão", marca: "", preco: 500, estado: "", specs: ["Colchão de molas ensacadas"], fotos: ["fotos/cama-de-casal-com-colchao-1.webp", "fotos/cama-de-casal-com-colchao-2.webp"] },
@@ -62,6 +65,7 @@ const ITENS = [
   { id: "gaveteiro", amb: "casal", icone: "gaveteiro", nome: "Gaveteiro", marca: "", preco: 120, estado: "", specs: [], fotos: ["fotos/gaveteiro-1.webp"] },
   { id: "smart-tv-50", amb: "casal", icone: "tv", nome: "Smart TV 50\"", marca: "Samsung", preco: 1500, estado: "", specs: ["50 polegadas"], fotos: ["fotos/smart-tv-50-1.webp", "fotos/smart-tv-50-2.webp"] },
   { id: "cadeira-de-escritorio", amb: "casal", icone: "escritorio", nome: "Cadeira de escritório", marca: "Flexform", preco: 500, estado: "", specs: ["Modelo My Chair"], fotos: ["fotos/cadeira-de-escritorio-1.webp", "fotos/cadeira-de-escritorio-2.webp", "fotos/cadeira-de-escritorio-3.webp"] },
+  { id: "quadro-one-piece-com-prateleira", amb: "casal", icone: "quadros", nome: "Quadro do One Piece com prateleira", marca: "", preco: 50, estado: "", specs: ["Vendidos juntos, como conjunto"], fotos: ["fotos/quadro-one-piece-com-prateleira-1.webp"] },
   { id: "monitor-27", amb: "casal", icone: "monitor", nome: "Monitor 27\"", marca: "", preco: 700, estado: "", specs: ["27 polegadas", "165 Hz"], fotos: ["fotos/monitor-27-1.webp"] },
   { id: "monitor-24", amb: "casal", icone: "monitor", nome: "Monitor 24\"", marca: "", preco: 500, status: "vendido", estado: "", specs: ["24 polegadas", "60 Hz"], fotos: ["fotos/monitor-24-1.webp"] },
 
@@ -73,6 +77,8 @@ const ITENS = [
   { id: "prateleira-vermelha-de-metal", amb: "infantil", icone: "metal", nome: "Prateleira vermelha de metal", marca: "", preco: 80, estado: "", specs: ["De chão"], fotos: ["fotos/prateleira-vermelha-de-metal-1.webp"] },
   { id: "mini-prateleira-com-organizadores", amb: "infantil", icone: "nichos", nome: "Mini prateleira com organizadores", marca: "", preco: 80, estado: "", specs: ["Organizadores de pano"], fotos: [] },
   { id: "tapete-infantil", amb: "infantil", icone: "tapetekids", nome: "Tapete infantil", marca: "", preco: 300, estado: "", specs: [], fotos: ["fotos/tapete-infantil-1.webp"] },
+  { id: "poltrona-infantil-homem-aranha", amb: "infantil", icone: "poltrona", nome: "Poltrona infantil do Homem-Aranha", marca: "", preco: 50, estado: "", specs: [], fotos: ["fotos/poltrona-infantil-homem-aranha-1.webp"] },
+  { id: "expositor-hot-wheels", amb: "infantil", icone: "nichos", nome: "Expositor de Hot Wheels", marca: "", preco: 40, estado: "", specs: [], fotos: ["fotos/expositor-hot-wheels-1.webp"] },
 
   // Área externa
   { id: "guarda-sol-com-mesa-e-cadeiras", amb: "externa", icone: "guardasol", nome: "Guarda-sol com mesa e cadeiras", marca: "", preco: 600, status: "vendido", estado: "", specs: ["Conjunto completo"], fotos: [] },
