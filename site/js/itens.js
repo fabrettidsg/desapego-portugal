@@ -35,7 +35,7 @@ const ITENS = [
   { id: "poltrona", amb: "sala", icone: "poltrona", nome: "Poltrona", marca: "", preco: 250, estado: "", specs: [], fotos: ["fotos/poltrona-1.webp"] },
   { id: "rack", amb: "sala", icone: "rack", nome: "Rack", marca: "", preco: 300, status: "vendido", estado: "", specs: [], fotos: ["fotos/rack-1.webp"] },
   { id: "smart-tv-55", amb: "sala", icone: "tv", nome: "Smart TV 55\"", marca: "TCL", preco: 1800, estado: "", specs: ["55 polegadas"], fotos: ["fotos/smart-tv-55-1.webp", "fotos/smart-tv-55-2.webp"] },
-  { id: "prateleira", amb: "sala", icone: "estante", nome: "Prateleira", marca: "", preco: 80, estado: "", specs: [], fotos: ["fotos/prateleira-1.webp"] },
+  { id: "prateleira", amb: "sala", icone: "estante", nome: "Prateleira", marca: "", preco: 80, status: "vendido", estado: "", specs: [], fotos: ["fotos/prateleira-1.webp"] },
   { id: "luminaria-de-chao", amb: "sala", icone: "luminaria", nome: "Luminária de chão", marca: "", preco: 90, estado: "", specs: [], fotos: ["fotos/luminaria-de-chao-1.webp", "fotos/luminaria-de-chao-2.webp", "fotos/luminaria-de-chao-3.webp"] },
   { id: "tapete-da-sala", amb: "sala", icone: "tapete", nome: "Tapete da sala", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/tapete-da-sala-1.webp", "fotos/tapete-da-sala-2.webp"] },
   { id: "bicicleta-ergometrica", amb: "sala", icone: "bike", nome: "Bicicleta ergométrica", marca: "", preco: 300, estado: "", specs: [], fotos: ["fotos/bicicleta-ergometrica-1.webp"] },
@@ -46,7 +46,7 @@ const ITENS = [
 
   // Cozinha
   { id: "geladeira", amb: "cozinha", icone: "geladeira", nome: "Geladeira", marca: "", preco: 1500, estado: "", specs: [], fotos: ["fotos/geladeira-1.webp", "fotos/geladeira-2.webp"] },
-  { id: "micro-ondas", amb: "cozinha", icone: "microondas", nome: "Micro-ondas", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/micro-ondas-1.webp"] },
+  { id: "micro-ondas", amb: "cozinha", icone: "microondas", nome: "Micro-ondas", marca: "", preco: 350, status: "vendido", estado: "", specs: [], fotos: ["fotos/micro-ondas-1.webp"] },
   { id: "suporte-micro-ondas", amb: "cozinha", icone: "suporte", nome: "Suporte para micro-ondas", marca: "", preco: 120, estado: "", specs: ["É o suporte que aparece na foto, sem o micro-ondas"], fotos: ["fotos/micro-ondas-1.webp"] },
   { id: "lava-louca", amb: "cozinha", icone: "lavalouca", nome: "Lava-louça", marca: "", preco: 1400, estado: "Na garantia", specs: [], fotos: ["fotos/lava-louca-1.webp"] },
   { id: "cooktop-4-bocas", amb: "cozinha", icone: "cooktop", nome: "Cooktop 4 bocas", marca: "", preco: 200, estado: "", specs: ["4 bocas"], fotos: ["fotos/cooktop-4-bocas-1.webp"] },
@@ -64,7 +64,7 @@ const ITENS = [
   { id: "cama-de-casal-com-colchao", amb: "casal", icone: "cama", nome: "Cama de casal com colchão", marca: "", preco: 500, status: "vendido", estado: "", specs: ["Colchão de molas ensacadas"], fotos: ["fotos/cama-de-casal-com-colchao-1.webp", "fotos/cama-de-casal-com-colchao-2.webp"] },
   { id: "escrivaninha-eletrica-regulavel", amb: "casal", icone: "escrivaninha", nome: "Escrivaninha elétrica regulável", marca: "", preco: 200, status: "vendido", estado: "", specs: ["Sobe e desce para trabalhar em pé"], fotos: ["fotos/escrivaninha-eletrica-regulavel-1.webp"] },
   { id: "mesa-de-cabeceira", amb: "casal", icone: "cabeceira", nome: "Mesa de cabeceira", marca: "", preco: 120, estado: "", specs: [], fotos: ["fotos/mesa-de-cabeceira-1.webp", "fotos/mesa-de-cabeceira-2.webp"] },
-  { id: "gaveteiro", amb: "casal", icone: "gaveteiro", nome: "Gaveteiro", marca: "", preco: 120, estado: "", specs: [], fotos: ["fotos/gaveteiro-1.webp"] },
+  { id: "gaveteiro", amb: "casal", icone: "gaveteiro", nome: "Gaveteiro", marca: "", preco: 120, status: "vendido", estado: "", specs: [], fotos: ["fotos/gaveteiro-1.webp"] },
   { id: "smart-tv-50", amb: "casal", icone: "tv", nome: "Smart TV 50\"", marca: "Samsung", preco: 1500, estado: "", specs: ["50 polegadas"], fotos: ["fotos/smart-tv-50-1.webp", "fotos/smart-tv-50-2.webp"] },
   { id: "cadeira-de-escritorio", amb: "casal", icone: "escritorio", nome: "Cadeira de escritório", marca: "Flexform", preco: 500, estado: "", specs: ["Modelo My Chair"], fotos: ["fotos/cadeira-de-escritorio-1.webp", "fotos/cadeira-de-escritorio-2.webp", "fotos/cadeira-de-escritorio-3.webp"] },
   { id: "quadro-one-piece-com-prateleira", amb: "casal", icone: "quadros", nome: "Quadro do One Piece com prateleira", marca: "", preco: 50, estado: "", specs: ["Vendidos juntos, como conjunto"], fotos: ["fotos/quadro-one-piece-com-prateleira-1.webp"] },
