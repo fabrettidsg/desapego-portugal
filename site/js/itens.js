@@ -72,7 +72,7 @@ const ITENS = [
   { id: "monitor-24", amb: "casal", icone: "monitor", nome: "Monitor 24\"", marca: "", preco: 500, status: "vendido", estado: "", specs: ["24 polegadas", "60 Hz"], fotos: ["fotos/monitor-24-1.webp"] },
 
   // Quarto infantil
-  { id: "cama-em-formato-de-carro", amb: "infantil", icone: "carro", nome: "Cama em formato de carro", marca: "", preco: 450, estado: "", specs: [], fotos: ["fotos/cama-em-formato-de-carro-1.webp", "fotos/cama-em-formato-de-carro-2.webp"] },
+  { id: "cama-em-formato-de-carro", amb: "infantil", icone: "carro", nome: "Cama em formato de carro", marca: "", preco: 450, status: "vendido", estado: "", specs: [], fotos: ["fotos/cama-em-formato-de-carro-1.webp", "fotos/cama-em-formato-de-carro-2.webp"] },
   { id: "bateria-infantil", amb: "infantil", icone: "bateria", nome: "Bateria infantil", marca: "", preco: 70, estado: "", specs: [], fotos: ["fotos/bateria-infantil-1.webp", "fotos/bateria-infantil-2.webp", "fotos/bateria-infantil-3.webp"] },
   { id: "mesinha-infantil-com-cadeira", amb: "infantil", icone: "mesinha", nome: "Mesinha infantil com cadeira", marca: "", preco: 100, estado: "", specs: [], fotos: ["fotos/mesinha-infantil-com-cadeira-1.webp"] },
   { id: "armario-infantil", amb: "infantil", icone: "armario", nome: "Armário infantil", marca: "", preco: 450, status: "vendido", estado: "", specs: [], fotos: ["fotos/armario-infantil-1.webp"] },
