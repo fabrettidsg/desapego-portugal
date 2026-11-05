@@ -42,7 +42,7 @@ const ITENS = [
   { id: "aspirador-vertical", amb: "sala", icone: "aspirador", nome: "Aspirador de pó vertical", marca: "WAP", preco: 250, estado: "", specs: [], fotos: ["fotos/aspirador-vertical-1.webp"] },
   { id: "quadros", amb: "sala", icone: "quadros", nome: "Quadros", marca: "", preco: null, precoTexto: "Valor a combinar", estado: "", specs: ["Vários quadros: veja todas as fotos"], fotos: ["fotos/quadros-1.webp", "fotos/quadros-2.webp", "fotos/quadros-3.webp", "fotos/quadros-4.webp", "fotos/quadros-5.webp", "fotos/quadros-6.webp", "fotos/quadros-7.webp", "fotos/quadros-8.webp", "fotos/quadros-9.webp"] },
 
-  { id: "cortina", amb: "sala", icone: "casa", nome: "Cortina", marca: "", preco: 900, estado: "", specs: [], fotos: ["fotos/cortina-1.webp"] },
+  { id: "cortina", amb: "sala", icone: "casa", nome: "Cortina", marca: "", preco: 900, status: "vendido", estado: "", specs: [], fotos: ["fotos/cortina-1.webp"] },
 
   // Cozinha
   { id: "geladeira", amb: "cozinha", icone: "geladeira", nome: "Geladeira", marca: "", preco: 1500, estado: "", specs: [], fotos: ["fotos/geladeira-1.webp", "fotos/geladeira-2.webp"] },
