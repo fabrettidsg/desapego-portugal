@@ -32,7 +32,7 @@ const ITENS = [
   { id: "cadeira-de-jantar", amb: "sala", icone: "cadeira", nome: "Cadeira de jantar", marca: "", preco: 80, unidade: true, qtd: 5, estado: "", specs: ["Vendida por unidade"], fotos: ["fotos/cadeira-de-jantar-1.webp"] },
   { id: "cadeira-de-jantar-mais-usada", amb: "sala", icone: "cadeira", nome: "Cadeira de jantar (mais usada)", marca: "", preco: 40, estado: "Com marcas de uso", specs: [], fotos: ["fotos/cadeira-de-jantar-1.webp"] },
   { id: "sofa", amb: "sala", icone: "sofa", nome: "Sofá", marca: "", preco: 1500, estado: "", specs: [], fotos: ["fotos/sofa-1.webp", "fotos/sofa-2.webp", "fotos/sofa-3.webp", "fotos/sofa-4.webp"] },
-  { id: "poltrona", amb: "sala", icone: "poltrona", nome: "Poltrona", marca: "", preco: 250, estado: "", specs: [], fotos: ["fotos/poltrona-1.webp"] },
+  { id: "poltrona", amb: "sala", icone: "poltrona", nome: "Poltrona", marca: "", preco: 250, status: "vendido", estado: "", specs: [], fotos: ["fotos/poltrona-1.webp"] },
   { id: "rack", amb: "sala", icone: "rack", nome: "Rack", marca: "", preco: 300, status: "vendido", estado: "", specs: [], fotos: ["fotos/rack-1.webp"] },
   { id: "smart-tv-55", amb: "sala", icone: "tv", nome: "Smart TV 55\"", marca: "TCL", preco: 1800, estado: "", specs: ["55 polegadas"], fotos: ["fotos/smart-tv-55-1.webp", "fotos/smart-tv-55-2.webp"] },
   { id: "prateleira", amb: "sala", icone: "estante", nome: "Prateleira", marca: "", preco: 80, status: "vendido", estado: "", specs: [], fotos: ["fotos/prateleira-1.webp"] },
@@ -45,7 +45,7 @@ const ITENS = [
   { id: "cortina", amb: "sala", icone: "casa", nome: "Cortina", marca: "", preco: 900, status: "vendido", estado: "", specs: [], fotos: ["fotos/cortina-1.webp"] },
 
   // Cozinha
-  { id: "geladeira", amb: "cozinha", icone: "geladeira", nome: "Geladeira", marca: "", preco: 1500, estado: "", specs: [], fotos: ["fotos/geladeira-1.webp", "fotos/geladeira-2.webp"] },
+  { id: "geladeira", amb: "cozinha", icone: "geladeira", nome: "Geladeira", marca: "", preco: 1500, status: "vendido", estado: "", specs: [], fotos: ["fotos/geladeira-1.webp", "fotos/geladeira-2.webp"] },
   { id: "micro-ondas", amb: "cozinha", icone: "microondas", nome: "Micro-ondas", marca: "", preco: 350, status: "vendido", estado: "", specs: [], fotos: ["fotos/micro-ondas-1.webp"] },
   { id: "suporte-micro-ondas", amb: "cozinha", icone: "suporte", nome: "Suporte para micro-ondas", marca: "", preco: 120, estado: "", specs: ["É o suporte que aparece na foto, sem o micro-ondas"], fotos: ["fotos/micro-ondas-1.webp"] },
   { id: "lava-louca", amb: "cozinha", icone: "lavalouca", nome: "Lava-louça", marca: "", preco: 1400, estado: "Na garantia", specs: [], fotos: ["fotos/lava-louca-1.webp"] },
