@@ -39,7 +39,7 @@ const ITENS = [
   { id: "luminaria-de-chao", amb: "sala", icone: "luminaria", nome: "Luminária de chão", marca: "", preco: 90, estado: "", specs: [], fotos: ["fotos/luminaria-de-chao-1.webp", "fotos/luminaria-de-chao-2.webp", "fotos/luminaria-de-chao-3.webp"] },
   { id: "tapete-da-sala", amb: "sala", icone: "tapete", nome: "Tapete da sala", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/tapete-da-sala-1.webp", "fotos/tapete-da-sala-2.webp"] },
   { id: "bicicleta-ergometrica", amb: "sala", icone: "bike", nome: "Bicicleta ergométrica", marca: "", preco: 300, status: "vendido", estado: "", specs: [], fotos: ["fotos/bicicleta-ergometrica-1.webp"] },
-  { id: "aspirador-vertical", amb: "sala", icone: "aspirador", nome: "Aspirador de pó vertical", marca: "WAP", preco: 250, estado: "", specs: [], fotos: ["fotos/aspirador-vertical-1.webp"] },
+  { id: "aspirador-vertical", amb: "sala", icone: "aspirador", nome: "Aspirador de pó vertical", marca: "WAP", preco: 250, status: "vendido", estado: "", specs: [], fotos: ["fotos/aspirador-vertical-1.webp"] },
   { id: "quadros", amb: "sala", icone: "quadros", nome: "Quadros", marca: "", preco: null, precoTexto: "Valor a combinar", estado: "", specs: ["Vários quadros: veja todas as fotos"], fotos: ["fotos/quadros-1.webp", "fotos/quadros-2.webp", "fotos/quadros-3.webp", "fotos/quadros-4.webp", "fotos/quadros-5.webp", "fotos/quadros-6.webp", "fotos/quadros-7.webp", "fotos/quadros-8.webp", "fotos/quadros-9.webp"] },
 
   { id: "cortina", amb: "sala", icone: "casa", nome: "Cortina", marca: "", preco: 900, status: "vendido", estado: "", specs: [], fotos: ["fotos/cortina-1.webp"] },
