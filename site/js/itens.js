@@ -68,7 +68,7 @@ const ITENS = [
   { id: "smart-tv-50", amb: "casal", icone: "tv", nome: "Smart TV 50\"", marca: "Samsung", preco: 1500, estado: "", specs: ["50 polegadas"], fotos: ["fotos/smart-tv-50-1.webp", "fotos/smart-tv-50-2.webp"] },
   { id: "cadeira-de-escritorio", amb: "casal", icone: "escritorio", nome: "Cadeira de escritório", marca: "Flexform", preco: 500, estado: "", specs: ["Modelo My Chair"], fotos: ["fotos/cadeira-de-escritorio-1.webp", "fotos/cadeira-de-escritorio-2.webp", "fotos/cadeira-de-escritorio-3.webp"] },
   { id: "quadro-one-piece-com-prateleira", amb: "casal", icone: "quadros", nome: "Quadro do One Piece com prateleira", marca: "", preco: 50, estado: "", specs: ["Vendidos juntos, como conjunto"], fotos: ["fotos/quadro-one-piece-com-prateleira-1.webp"] },
-  { id: "monitor-27", amb: "casal", icone: "monitor", nome: "Monitor 27\"", marca: "", preco: 700, estado: "", specs: ["27 polegadas", "165 Hz"], fotos: ["fotos/monitor-27-1.webp"] },
+  { id: "monitor-27", amb: "casal", icone: "monitor", nome: "Monitor 27\"", marca: "", preco: 600, estado: "", specs: ["27 polegadas", "165 Hz"], fotos: ["fotos/monitor-27-1.webp"] },
   { id: "monitor-24", amb: "casal", icone: "monitor", nome: "Monitor 24\"", marca: "", preco: 500, status: "vendido", estado: "", specs: ["24 polegadas", "60 Hz"], fotos: ["fotos/monitor-24-1.webp"] },
 
   // Quarto infantil
