@@ -52,7 +52,7 @@ const ITENS = [
   { id: "cooktop-4-bocas", amb: "cozinha", icone: "cooktop", nome: "Cooktop 4 bocas", marca: "", preco: 200, estado: "", specs: ["4 bocas"], fotos: ["fotos/cooktop-4-bocas-1.webp"] },
   { id: "forno", amb: "cozinha", icone: "forno", nome: "Forno", marca: "", preco: 200, estado: "", specs: [], fotos: ["fotos/forno-1.webp"] },
   { id: "panela-de-pressao", amb: "cozinha", icone: "panela", nome: "Panela de pressão", marca: "", preco: 250, status: "vendido", estado: "", specs: [], fotos: [] },
-  { id: "airfryer", amb: "cozinha", icone: "airfryer", nome: "Airfryer", marca: "", preco: 120, estado: "", specs: [], fotos: ["fotos/airfryer-1.webp"] },
+  { id: "airfryer", amb: "cozinha", icone: "airfryer", nome: "Airfryer", marca: "", preco: 120, status: "vendido", estado: "", specs: [], fotos: ["fotos/airfryer-1.webp"] },
   { id: "maquina-de-cafe", amb: "cozinha", icone: "cafe", nome: "Máquina de café", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/maquina-de-cafe-1.webp"] },
   { id: "pipoqueira", amb: "cozinha", icone: "pipoca", nome: "Pipoqueira", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/pipoqueira-1.webp"] },
   { id: "batedeira", amb: "cozinha", icone: "batedeira", nome: "Batedeira", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/batedeira-1.webp"] },
