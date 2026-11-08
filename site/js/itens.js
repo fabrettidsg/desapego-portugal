@@ -57,7 +57,7 @@ const ITENS = [
   { id: "pipoqueira", amb: "cozinha", icone: "pipoca", nome: "Pipoqueira", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/pipoqueira-1.webp"] },
   { id: "batedeira", amb: "cozinha", icone: "batedeira", nome: "Batedeira", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/batedeira-1.webp"] },
   { id: "espremedor-de-suco", amb: "cozinha", icone: "espremedor", nome: "Espremedor de suco", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/espremedor-de-suco-1.webp"] },
-  { id: "maquina-de-lavar", amb: "cozinha", icone: "lavalouca", nome: "Máquina de lavar", marca: "Midea", preco: 1500, estado: "", specs: [], fotos: ["fotos/maquina-de-lavar-1.webp", "fotos/maquina-de-lavar-2.webp"] },
+  { id: "maquina-de-lavar", amb: "cozinha", icone: "lavalouca", nome: "Máquina de lavar", marca: "Midea", preco: 1500, status: "vendido", estado: "", specs: [], fotos: ["fotos/maquina-de-lavar-1.webp", "fotos/maquina-de-lavar-2.webp"] },
   { id: "purificador-de-agua", amb: "cozinha", icone: "purificador", nome: "Purificador de água", marca: "IBBL", preco: 250, estado: "", specs: [], fotos: ["fotos/purificador-de-agua-1.webp"] },
 
   // Quarto do casal
