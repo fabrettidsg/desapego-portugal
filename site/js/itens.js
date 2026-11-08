@@ -61,7 +61,7 @@ const ITENS = [
   { id: "purificador-de-agua", amb: "cozinha", icone: "purificador", nome: "Purificador de água", marca: "IBBL", preco: 250, estado: "", specs: [], fotos: ["fotos/purificador-de-agua-1.webp"] },
 
   // Quarto do casal
-  { id: "cama-de-casal-com-colchao", amb: "casal", icone: "cama", nome: "Cama de casal com colchão", marca: "", preco: 500, status: "vendido", estado: "", specs: ["Colchão de molas ensacadas"], fotos: ["fotos/cama-de-casal-com-colchao-1.webp", "fotos/cama-de-casal-com-colchao-2.webp"] },
+  { id: "cama-de-casal-com-colchao", amb: "casal", icone: "cama", nome: "Cama de casal com colchão", marca: "", preco: 500, estado: "", specs: ["Colchão de molas ensacadas"], fotos: ["fotos/cama-de-casal-com-colchao-1.webp", "fotos/cama-de-casal-com-colchao-2.webp"] },
   { id: "escrivaninha-eletrica-regulavel", amb: "casal", icone: "escrivaninha", nome: "Escrivaninha elétrica regulável", marca: "", preco: 200, status: "vendido", estado: "", specs: ["Sobe e desce para trabalhar em pé"], fotos: ["fotos/escrivaninha-eletrica-regulavel-1.webp"] },
   { id: "mesa-de-cabeceira", amb: "casal", icone: "cabeceira", nome: "Mesa de cabeceira", marca: "", preco: 120, estado: "", specs: [], fotos: ["fotos/mesa-de-cabeceira-1.webp", "fotos/mesa-de-cabeceira-2.webp"] },
   { id: "gaveteiro", amb: "casal", icone: "gaveteiro", nome: "Gaveteiro", marca: "", preco: 120, status: "vendido", estado: "", specs: [], fotos: ["fotos/gaveteiro-1.webp"] },
