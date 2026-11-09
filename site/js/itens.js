@@ -36,7 +36,7 @@ const ITENS = [
   { id: "rack", amb: "sala", icone: "rack", nome: "Rack", marca: "", preco: 300, status: "vendido", estado: "", specs: [], fotos: ["fotos/rack-1.webp"] },
   { id: "smart-tv-55", amb: "sala", icone: "tv", nome: "Smart TV 55\"", marca: "TCL", preco: 1800, status: "vendido", estado: "", specs: ["55 polegadas"], fotos: ["fotos/smart-tv-55-1.webp", "fotos/smart-tv-55-2.webp"] },
   { id: "prateleira", amb: "sala", icone: "estante", nome: "Prateleira", marca: "", preco: 80, status: "vendido", estado: "", specs: [], fotos: ["fotos/prateleira-1.webp"] },
-  { id: "luminaria-de-chao", amb: "sala", icone: "luminaria", nome: "Luminária de chão", marca: "", preco: 90, estado: "", specs: [], fotos: ["fotos/luminaria-de-chao-1.webp", "fotos/luminaria-de-chao-2.webp", "fotos/luminaria-de-chao-3.webp"] },
+  { id: "luminaria-de-chao", amb: "sala", icone: "luminaria", nome: "Luminária de chão", marca: "", preco: 90, status: "vendido", estado: "", specs: [], fotos: ["fotos/luminaria-de-chao-1.webp", "fotos/luminaria-de-chao-2.webp", "fotos/luminaria-de-chao-3.webp"] },
   { id: "tapete-da-sala", amb: "sala", icone: "tapete", nome: "Tapete da sala", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/tapete-da-sala-1.webp", "fotos/tapete-da-sala-2.webp"] },
   { id: "bicicleta-ergometrica", amb: "sala", icone: "bike", nome: "Bicicleta ergométrica", marca: "", preco: 300, status: "vendido", estado: "", specs: [], fotos: ["fotos/bicicleta-ergometrica-1.webp"] },
   { id: "aspirador-vertical", amb: "sala", icone: "aspirador", nome: "Aspirador de pó vertical", marca: "WAP", preco: 250, status: "vendido", estado: "", specs: [], fotos: ["fotos/aspirador-vertical-1.webp"] },
