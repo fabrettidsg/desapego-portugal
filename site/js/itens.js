@@ -54,8 +54,8 @@ const ITENS = [
   { id: "panela-de-pressao", amb: "cozinha", icone: "panela", nome: "Panela de pressão", marca: "", preco: 250, status: "vendido", estado: "", specs: [], fotos: [] },
   { id: "airfryer", amb: "cozinha", icone: "airfryer", nome: "Airfryer", marca: "", preco: 120, status: "vendido", estado: "", specs: [], fotos: ["fotos/airfryer-1.webp"] },
   { id: "maquina-de-cafe", amb: "cozinha", icone: "cafe", nome: "Máquina de café", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/maquina-de-cafe-1.webp"] },
-  { id: "pipoqueira", amb: "cozinha", icone: "pipoca", nome: "Pipoqueira", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/pipoqueira-1.webp"] },
-  { id: "batedeira", amb: "cozinha", icone: "batedeira", nome: "Batedeira", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/batedeira-1.webp"] },
+  { id: "pipoqueira", amb: "cozinha", icone: "pipoca", nome: "Pipoqueira", marca: "", preco: 60, status: "vendido", estado: "", specs: [], fotos: ["fotos/pipoqueira-1.webp"] },
+  { id: "batedeira", amb: "cozinha", icone: "batedeira", nome: "Batedeira", marca: "", preco: 60, status: "vendido", estado: "", specs: [], fotos: ["fotos/batedeira-1.webp"] },
   { id: "espremedor-de-suco", amb: "cozinha", icone: "espremedor", nome: "Espremedor de suco", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/espremedor-de-suco-1.webp"] },
   { id: "maquina-de-lavar", amb: "cozinha", icone: "lavalouca", nome: "Máquina de lavar", marca: "Midea", preco: 1500, status: "vendido", estado: "", specs: [], fotos: ["fotos/maquina-de-lavar-1.webp", "fotos/maquina-de-lavar-2.webp"] },
   { id: "purificador-de-agua", amb: "cozinha", icone: "purificador", nome: "Purificador de água", marca: "IBBL", preco: 250, estado: "", specs: [], fotos: ["fotos/purificador-de-agua-1.webp"] },
@@ -87,7 +87,7 @@ const ITENS = [
 
   // Climatização
   { id: "ar-condicionado-9000-btus-electrolux", amb: "clima", icone: "ar", nome: "Ar-condicionado 9.000 BTUs", marca: "Electrolux", preco: 1500, estado: "", specs: ["9.000 BTUs"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-9000-btus-electrolux-1.webp", "fotos/ar-condicionado-9000-btus-electrolux-2.webp"] },
-  { id: "ar-condicionado-9000-btus-philco", amb: "clima", icone: "ar", nome: "Ar-condicionado 9.000 BTUs", marca: "Philco", preco: 1600, status: "vendido", estado: "", specs: ["9.000 BTUs"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-9000-btus-philco-1.webp", "fotos/ar-condicionado-9000-btus-philco-2.webp"] },
-  { id: "ar-condicionado-18000-btus-samsung", amb: "clima", icone: "ar", nome: "Ar-condicionado 18.000 BTUs", marca: "Samsung", preco: 2300, estado: "", specs: ["18.000 BTUs", "Instalado na sala"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-18000-btus-samsung-1.webp"] },
+  { id: "ar-condicionado-9000-btus-philco", amb: "clima", icone: "ar", nome: "Ar-condicionado 9.000 BTUs", marca: "Philco", preco: 1600, estado: "", specs: ["9.000 BTUs"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-9000-btus-philco-1.webp", "fotos/ar-condicionado-9000-btus-philco-2.webp"] },
+  { id: "ar-condicionado-18000-btus-samsung", amb: "clima", icone: "ar", nome: "Ar-condicionado 18.000 BTUs", marca: "Samsung", preco: 2300, status: "vendido", estado: "", specs: ["18.000 BTUs", "Instalado na sala"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-18000-btus-samsung-1.webp"] },
 ];
 /* ================================================ */
