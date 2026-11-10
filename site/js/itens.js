@@ -50,7 +50,7 @@ const ITENS = [
   { id: "suporte-micro-ondas", amb: "cozinha", icone: "suporte", nome: "Suporte para micro-ondas", marca: "", preco: 120, estado: "", specs: ["É o suporte que aparece na foto, sem o micro-ondas"], fotos: ["fotos/micro-ondas-1.webp"] },
   { id: "lava-louca", amb: "cozinha", icone: "lavalouca", nome: "Lava-louça", marca: "", preco: 1400, status: "vendido", estado: "Na garantia", specs: [], fotos: ["fotos/lava-louca-1.webp"] },
   { id: "cooktop-4-bocas", amb: "cozinha", icone: "cooktop", nome: "Cooktop 4 bocas", marca: "", preco: 200, estado: "", specs: ["4 bocas"], fotos: ["fotos/cooktop-4-bocas-1.webp"] },
-  { id: "forno", amb: "cozinha", icone: "forno", nome: "Forno", marca: "", preco: 200, estado: "", specs: [], fotos: ["fotos/forno-1.webp"] },
+  { id: "forno", amb: "cozinha", icone: "forno", nome: "Forno", marca: "", preco: 200, status: "vendido", estado: "", specs: [], fotos: ["fotos/forno-1.webp"] },
   { id: "panela-de-pressao", amb: "cozinha", icone: "panela", nome: "Panela de pressão", marca: "", preco: 250, status: "vendido", estado: "", specs: [], fotos: [] },
   { id: "airfryer", amb: "cozinha", icone: "airfryer", nome: "Airfryer", marca: "", preco: 120, status: "vendido", estado: "", specs: [], fotos: ["fotos/airfryer-1.webp"] },
   { id: "maquina-de-cafe", amb: "cozinha", icone: "cafe", nome: "Máquina de café", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/maquina-de-cafe-1.webp"] },
