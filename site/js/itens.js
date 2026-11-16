@@ -28,12 +28,12 @@ const DESTAQUES = ["Smart TV 55\"", "Geladeira", "Lava-louça", "Ar-condicionado
    fotos   → ["fotos/<id>-1.webp", ...]; a primeira é a capa do card */
 const ITENS = [
   // Sala
-  { id: "mesa-de-jantar", amb: "sala", icone: "mesa", nome: "Mesa de jantar", marca: "Naterial", preco: 800, estado: "", specs: [], fotos: ["fotos/mesa-de-jantar-1.webp", "fotos/mesa-de-jantar-2.webp", "fotos/mesa-de-jantar-3.webp"] },
+  { id: "mesa-de-jantar", amb: "sala", icone: "mesa", nome: "Mesa de jantar", marca: "Naterial", preco: 800, status: "vendido", estado: "", specs: [], fotos: ["fotos/mesa-de-jantar-1.webp", "fotos/mesa-de-jantar-2.webp", "fotos/mesa-de-jantar-3.webp"] },
   { id: "cadeira-de-jantar", amb: "sala", icone: "cadeira", nome: "Cadeira de jantar", marca: "", preco: 80, unidade: true, qtd: 5, estado: "", specs: ["Vendida por unidade"], fotos: ["fotos/cadeira-de-jantar-1.webp"] },
   { id: "cadeira-de-jantar-mais-usada", amb: "sala", icone: "cadeira", nome: "Cadeira de jantar (mais usada)", marca: "", preco: 40, estado: "Com marcas de uso", specs: [], fotos: ["fotos/cadeira-de-jantar-1.webp"] },
   { id: "sofa", amb: "sala", icone: "sofa", nome: "Sofá", marca: "", preco: 1500, estado: "", specs: [], fotos: ["fotos/sofa-1.webp", "fotos/sofa-2.webp", "fotos/sofa-3.webp", "fotos/sofa-4.webp"] },
   { id: "poltrona", amb: "sala", icone: "poltrona", nome: "Poltrona", marca: "", preco: 250, status: "vendido", estado: "", specs: [], fotos: ["fotos/poltrona-1.webp"] },
-  { id: "rack", amb: "sala", icone: "rack", nome: "Rack", marca: "", preco: 300, status: "vendido", estado: "", specs: [], fotos: ["fotos/rack-1.webp"] },
+  { id: "rack", amb: "sala", icone: "rack", nome: "Rack", marca: "", preco: 300, estado: "", specs: [], fotos: ["fotos/rack-1.webp"] },
   { id: "smart-tv-55", amb: "sala", icone: "tv", nome: "Smart TV 55\"", marca: "TCL", preco: 1800, status: "vendido", estado: "", specs: ["55 polegadas"], fotos: ["fotos/smart-tv-55-1.webp", "fotos/smart-tv-55-2.webp"] },
   { id: "prateleira", amb: "sala", icone: "estante", nome: "Prateleira", marca: "", preco: 80, status: "vendido", estado: "", specs: [], fotos: ["fotos/prateleira-1.webp"] },
   { id: "luminaria-de-chao", amb: "sala", icone: "luminaria", nome: "Luminária de chão", marca: "", preco: 90, status: "vendido", estado: "", specs: [], fotos: ["fotos/luminaria-de-chao-1.webp", "fotos/luminaria-de-chao-2.webp", "fotos/luminaria-de-chao-3.webp"] },
@@ -56,7 +56,7 @@ const ITENS = [
   { id: "maquina-de-cafe", amb: "cozinha", icone: "cafe", nome: "Máquina de café", marca: "", preco: 350, estado: "", specs: [], fotos: ["fotos/maquina-de-cafe-1.webp"] },
   { id: "pipoqueira", amb: "cozinha", icone: "pipoca", nome: "Pipoqueira", marca: "", preco: 60, status: "vendido", estado: "", specs: [], fotos: ["fotos/pipoqueira-1.webp"] },
   { id: "batedeira", amb: "cozinha", icone: "batedeira", nome: "Batedeira", marca: "", preco: 60, status: "vendido", estado: "", specs: [], fotos: ["fotos/batedeira-1.webp"] },
-  { id: "espremedor-de-suco", amb: "cozinha", icone: "espremedor", nome: "Espremedor de suco", marca: "", preco: 60, estado: "", specs: [], fotos: ["fotos/espremedor-de-suco-1.webp"] },
+  { id: "espremedor-de-suco", amb: "cozinha", icone: "espremedor", nome: "Espremedor de suco", marca: "", preco: 60, status: "vendido", estado: "", specs: [], fotos: ["fotos/espremedor-de-suco-1.webp"] },
   { id: "maquina-de-lavar", amb: "cozinha", icone: "lavalouca", nome: "Máquina de lavar", marca: "Midea", preco: 1500, status: "vendido", estado: "", specs: [], fotos: ["fotos/maquina-de-lavar-1.webp", "fotos/maquina-de-lavar-2.webp"] },
   { id: "purificador-de-agua", amb: "cozinha", icone: "purificador", nome: "Purificador de água", marca: "IBBL", preco: 250, estado: "", specs: [], fotos: ["fotos/purificador-de-agua-1.webp"] },
 
@@ -72,7 +72,7 @@ const ITENS = [
   { id: "monitor-24", amb: "casal", icone: "monitor", nome: "Monitor 24\"", marca: "", preco: 500, status: "vendido", estado: "", specs: ["24 polegadas", "60 Hz"], fotos: ["fotos/monitor-24-1.webp"] },
 
   // Quarto infantil
-  { id: "cama-em-formato-de-carro", amb: "infantil", icone: "carro", nome: "Cama em formato de carro", marca: "", preco: 450, status: "vendido", estado: "", specs: [], fotos: ["fotos/cama-em-formato-de-carro-1.webp", "fotos/cama-em-formato-de-carro-2.webp"] },
+  { id: "cama-em-formato-de-carro", amb: "infantil", icone: "carro", nome: "Cama em formato de carro", marca: "", preco: 450, estado: "", specs: [], fotos: ["fotos/cama-em-formato-de-carro-1.webp", "fotos/cama-em-formato-de-carro-2.webp"] },
   { id: "bateria-infantil", amb: "infantil", icone: "bateria", nome: "Bateria infantil", marca: "", preco: 70, status: "vendido", estado: "", specs: [], fotos: ["fotos/bateria-infantil-1.webp", "fotos/bateria-infantil-2.webp", "fotos/bateria-infantil-3.webp"] },
   { id: "mesinha-infantil-com-cadeira", amb: "infantil", icone: "mesinha", nome: "Mesinha infantil com cadeira", marca: "", preco: 100, estado: "", specs: [], fotos: ["fotos/mesinha-infantil-com-cadeira-1.webp"] },
   { id: "armario-infantil", amb: "infantil", icone: "armario", nome: "Armário infantil", marca: "", preco: 450, status: "vendido", estado: "", specs: [], fotos: ["fotos/armario-infantil-1.webp"] },
@@ -86,7 +86,7 @@ const ITENS = [
   { id: "guarda-sol-com-mesa-e-cadeiras", amb: "externa", icone: "guardasol", nome: "Guarda-sol com mesa e cadeiras", marca: "", preco: 600, status: "vendido", estado: "", specs: ["Conjunto completo"], fotos: [] },
 
   // Climatização
-  { id: "ar-condicionado-9000-btus-electrolux", amb: "clima", icone: "ar", nome: "Ar-condicionado 9.000 BTUs", marca: "Electrolux", preco: 1500, estado: "", specs: ["9.000 BTUs"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-9000-btus-electrolux-1.webp", "fotos/ar-condicionado-9000-btus-electrolux-2.webp"] },
+  { id: "ar-condicionado-9000-btus-electrolux", amb: "clima", icone: "ar", nome: "Ar-condicionado 9.000 BTUs", marca: "Electrolux", preco: 1500, status: "vendido", estado: "", specs: ["9.000 BTUs"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-9000-btus-electrolux-1.webp", "fotos/ar-condicionado-9000-btus-electrolux-2.webp"] },
   { id: "ar-condicionado-9000-btus-philco", amb: "clima", icone: "ar", nome: "Ar-condicionado 9.000 BTUs", marca: "Philco", preco: 1600, estado: "", specs: ["9.000 BTUs"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-9000-btus-philco-1.webp", "fotos/ar-condicionado-9000-btus-philco-2.webp"] },
   { id: "ar-condicionado-18000-btus-samsung", amb: "clima", icone: "ar", nome: "Ar-condicionado 18.000 BTUs", marca: "Samsung", preco: 2300, status: "vendido", estado: "", specs: ["18.000 BTUs", "Instalado na sala"], aviso: "Desinstalação a combinar", fotos: ["fotos/ar-condicionado-18000-btus-samsung-1.webp"] },
 ];
